@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(6, 3, 17);
+    color: rgb(255, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+header .mobile{
+    display: none;
+}
+
+
+header{
+    background: black;
+    padding: 20px;
+    background-image: url("images/201208-space-contact-mc-1000_2ccd3fbfb3e3d974e910d1abd9b81c1a.nbcnews-fp-1200-630.jpg");
+    background-size: 100%;
+    text-align: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.features {
+    background-color: rgb(6, 3, 17);
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    background: rgb(0, 0, 0);
+    padding: 10px 20px;
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+}
+.features figure {
+    background: rgb(6, 3, 17);
+    margin: auto;
+    width: 100px;
+    text-align: center;
+}
+.features figure img{
+    width: 200px;
+    border-radius: 10%;
+    box-shadow:rgb(255, 255, 255) 0px 0px 10px ;
+}
+nav ul{
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+}
+
+header .logo a {
+    background-image: url("images/nasa.png");
+    background-size: 300px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 150px;
+    top: -20px;
+    position: relative;
+    text-indent: -909009px;
+    width: 290px;
+}
+a .nav{
+    color: purple;
+}
+h1{
+    color: purple;
+}
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  
+/* Rules */
+@media screen and (max-width: 715px){
+header .mobile {
+    display: inline-block;
+}
+header .desktop {
+    display: none;
+}
+header .logo a{
+    height: 150px;
+}
+header{
+    height: 250px;
+    background-position: 0 -30px;
+}
+}
+@media screen and (max-width: 500px){
+    header{
+        height: 200px;
+        background-position: 0 -0px;
+    }
+    body .features{
+        display: inline-block;
+    }
+}
+
+
